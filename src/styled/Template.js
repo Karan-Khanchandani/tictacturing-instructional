@@ -22,7 +22,7 @@ export const Container = styled.div`
 export const Main = (props) => {
     return(
         <Container>
-            {props.container}
+            {props.children}
         </Container>
     )
 }
