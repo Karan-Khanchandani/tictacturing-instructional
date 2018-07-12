@@ -51,8 +51,8 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "set GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjjgyhsri59ws01760p92xxe6&&node scripts/start.js",
-    "build": "set GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjjgyhsri59ws01760p92xxe6&&node scripts/build.js",
+    "start": "GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjjgyhsri59ws01760p92xxe6 node scripts/start.js",
+    "build": "GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjjgyhsri59ws01760p92xxe6 node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
